@@ -77,10 +77,10 @@ if ($profilePic) {
 }
 
 // Database connection
-$servername = "localhost";
-$username = "root"; // Default XAMPP username
+$servername = "";
+$username = ""; // Default XAMPP username
 $password = ""; // Default XAMPP password
-$dbname = "user_data";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
