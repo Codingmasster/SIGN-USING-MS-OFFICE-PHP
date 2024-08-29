@@ -2,9 +2,9 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$appid = "";
-$tennantid = "";
-$secret = "";
+$appid = "YOUR_APP_ID";
+$tennantid = "YOUR_TENNANT_ID";
+$secret = "YOUR_CLIENT_SECRET";
 $login_url = "https://login.microsoftonline.com/".$tennantid."/oauth2/v2.0/authorize";
 
 session_start();
